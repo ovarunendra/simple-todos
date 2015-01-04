@@ -8,6 +8,10 @@
 			<h1>Todo List</h1>
 		</header>
 
+		<form class="new-task">
+			<input type="text" name="text" placeholder="Type to add new tasks" />			
+		</form>
+
 		<ul>
 			{{#each tasks}}
 				{{> task}}
